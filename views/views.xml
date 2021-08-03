@@ -1,0 +1,15 @@
+<odoo>
+  <data>
+      <!-- model.name inherit form view -->
+      <record id="method_cierre_pos_forzar.view_pos_session_form" model="ir.ui.view">
+        <field name="name">method.cierre.pos.forzar.view.pos.session.form</field>
+        <field name="model">pos.session</field>
+        <field name="inherit_id" ref="point_of_sale.view_pos_session_form"/>
+        <field name="arch" type="xml">
+          <xpath expr="//button[@name='action_pos_session_validate']" position="after">
+              <button name="pos_session_close" type="object" string="Forzar Cierre" class="oe_highlight" states="closing_control"/>
+          </xpath>           
+        </field>
+      </record>
+  </data>
+</odoo>

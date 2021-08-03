@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_method_cierre_pos_forzar_method_cierre_pos_forzar,method_cierre_pos_forzar.method_cierre_pos_forzar,model_method_cierre_pos_forzar_method_cierre_pos_forzar,,1,0,0,0
