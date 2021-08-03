@@ -7,7 +7,7 @@
         <field name="inherit_id" ref="point_of_sale.view_pos_session_form"/>
         <field name="arch" type="xml">
           <xpath expr="//button[@name='action_pos_session_validate']" position="after">
-              <button name="pos_session_close" type="object" string="Forzar Cierre" class="oe_highlight" states="closing_control"/>
+              <button name="pos_session_close" type="object" string="Forzar Cierre" class="oe_highlight" states="closing_control" help="Este botón debe ser usado si falla el botón validar y contabilizar!!"/>
           </xpath>           
         </field>
       </record>
